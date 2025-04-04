@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lora', serif;
+  color: #2C2C2C;
+  margin: 0;
+  padding: 2rem;
+  font-size: 18px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, .tagline {
+  text-align: center;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+section p {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h1 {
+  color: #3C2B1D;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #4B3B2A;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #A88FB8;
+  color: #fff;
+  padding: 0.7em 1.6em;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: inherit;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #8C6FA2;
+}
+
+.logo-center {
+  display: block;
+  margin: 1.2rem auto 1.6rem auto;
+  max-width: 150px;
+  height: auto;
+}
+
+.btn.tree {
+  background-color: #6C9A8B;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.7em 1.6em;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn.tree:hover {
+  background-color: #5C867A;
+  transform: scale(1.03);
+}
+
+h1, h2, .tagline {
+  text-align: center;
+}
+
+section p {
+  text-align: justify;
+  margin: 1rem 0;
+}
+
+.signup .centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.visual-pair {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.visual-pair.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-block, .image-block {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.text-block p {
+  text-align: justify;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.image-block img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-part {
+  max-width: 600px;   /* ширина текста */
+  margin: 1.5rem auto 0; /* отступ сверху, по центру */
+}
